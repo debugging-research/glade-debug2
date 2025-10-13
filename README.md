@@ -27,7 +27,7 @@ A virtual whiteboard
 4. The last command should print a URL like http://localhost:5173/glade/, click that to see the working project in action
 ---
 ## Directions
-- After opening the project in VSCode, look at the **PROBLEMS** tab of the terminal and inspect the issues (image provided below of what this looks like)
+- Inspect the issues (image provided below of what this looks like)
 - Document yourself every 5-10 mins with the strategies used and steps taken to debug the errors shown
 - Give yourself no more than 45 minutes to complete this task
 - If you do not solve the bugs, no problem! Still, document everything and stop when the time is up
