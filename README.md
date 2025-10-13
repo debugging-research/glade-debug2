@@ -14,7 +14,7 @@ A virtual whiteboard
 # Bug 2
 ---
 ## How to Run The Code
-1. In your terminal, git clone this repository using `git clone https://github.com/n2singh/glade-debug1.git`
+1. In your terminal, git clone this repository using `git clone https://github.com/debugging-research/glade-debug2.git`
 2. Open the glade folder in VSCode that you just cloned
 3. In VSCode terminal run the following commands:
    
@@ -25,6 +25,13 @@ A virtual whiteboard
 `pnpm -C glade run dev`
 
 4. The last command should print a URL like http://localhost:5173/glade/, click that to see the working project in action
+---
+## Directions
+- After opening the project in VSCode, look at the **PROBLEMS** tab of the terminal and inspect the issues (image provided below of what this looks like)
+- Document yourself every 5-10 mins with the strategies used and steps taken to debug the errors shown
+- Give yourself no more than 45 minutes to complete this task
+- If you do not solve the bugs, no problem! Still, document everything and stop when the time is up
+- Good luck :)
 
 ---
 ## Error Message Shown:
