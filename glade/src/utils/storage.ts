@@ -47,7 +47,7 @@ export const GLADE_CONFIG = useStorage<GladeConfig>(
   },
 )
 
-export const GLADE = useStorage<GladeNodeObj[]>(
+export const GLADE = useStorage<GladeNodeObj>(
   'GLADE',
   [],
   undefined,
