@@ -20,8 +20,6 @@ A virtual whiteboard
    
 `pnpm install`
 
-`pnpm -r build`
-
 `pnpm -C glade run dev`
 
 4. The last command should print a URL like http://localhost:5173/glade/, click that to see the working project in action
@@ -39,4 +37,6 @@ A virtual whiteboard
 ---
 ## Hints
 - inspect the type parameter you gave to the variable in the error message versus the default value and how it is used elsewhere in the code
-
+---
+## Intended Behavior Error
+This one is more of an on-site “wrong behavior” and is failing to restore the board, meaning you can open the whiteboard but can't do anything
