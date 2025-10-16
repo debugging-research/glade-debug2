@@ -39,4 +39,4 @@ A virtual whiteboard
 - inspect the type parameter you gave to the variable in the error message versus the default value and how it is used elsewhere in the code
 ---
 ## Intended Behavior Error
-This one is more of an on-site “wrong behavior” and is failing to restore the board, meaning you can open the whiteboard but can't do anything
+This one is more of an on-site “wrong behavior” and is failing to restore the board, meaning you can open the whiteboard but can't do anything within it
