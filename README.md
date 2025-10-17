@@ -42,7 +42,14 @@ A virtual whiteboard
 ---
 ## Intended Behavior Error
 ---
-This bug does not necessarily occur here because we pilot it locally, but:
+This bug does not necessarily show up on the site when running the commands above because we pilot it locally, but if we were to run it as if officially deployed we could use these commands:
+
+`pnpm install`
+`pnpm -r build`
+`pnpm -C glade run build`
+`pnpm -C glade run preview`
+
+Here you will see
 
 Intended behavior: when you open the app, it should restore your last session’s nodes (shapes/images/text) from local storage (GLADE). If you added nodes, then reload the page, you should see them again.
 
@@ -50,4 +57,6 @@ With the bug: the app treats GLADE as a single node type. That mismatch can caus
 - A crash/overlay during startup when the code tries to iterate/spread the nodes, or
 - The board loads empty or behaves inconsistently because it can’t reliably read/write the saved nodes collection.
 
-The intention of this one is to fix the logic of the code, but I can always change it to be an intended behavior bug.
+---
+
+The intention of this bug was just incorrect logic that caused error overall, if this is not what we are looking for I can change it to be an intended behavior bug like my bug 1.
