@@ -42,14 +42,7 @@ A virtual whiteboard
 ---
 ## Intended Behavior Error
 ---
-This bug does not necessarily show up on the site when running the commands above because we pilot it locally, but if we were to run it as if officially deployed we could use these commands:
-
-`pnpm install`
-`pnpm -r build`
-`pnpm -C glade run build`
-`pnpm -C glade run preview`
-
-Here you will see
+This bug does not necessarily show up visually on the site when running the commands above because we pilot it locally, and it would be a huge error running for the globally deployed site, here is what would happen if we did that:
 
 Intended behavior: when you open the app, it should restore your last session’s nodes (shapes/images/text) from local storage (GLADE). If you added nodes, then reload the page, you should see them again.
 
