@@ -41,4 +41,11 @@ A virtual whiteboard
 - inspect the type parameter you gave to the variable in the error message versus the default value and how it is used elsewhere in the code
 ---
 ## Intended Behavior Error
-This one is more of an on-site “wrong behavior” and is failing to restore the board, meaning you can open the whiteboard but can't do anything within it
+---
+This bug does not necessarily always occur.
+
+Intended behavior: when you open the app, it should restore your last session’s nodes (shapes/images/text) from local storage (GLADE). If you added nodes, then reload the page, you should see them again.
+
+With the bug: the app treats GLADE as a single node type instead of an array. That mismatch can cause either:
+- A crash/overlay during startup when the code tries to iterate/spread the nodes, or
+- The board loads empty or behaves inconsistently because it can’t reliably read/write the saved nodes collection.
