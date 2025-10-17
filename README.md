@@ -42,7 +42,7 @@ A virtual whiteboard
 ---
 ## Intended Behavior Error
 ---
-This bug does not necessarily always occur.
+This bug does not necessarily occur here because we pilot it locally, but:
 
 Intended behavior: when you open the app, it should restore your last session’s nodes (shapes/images/text) from local storage (GLADE). If you added nodes, then reload the page, you should see them again.
 
