@@ -20,6 +20,8 @@ A virtual whiteboard
    
 `pnpm install`
 
+`pnpm -r build`
+
 `pnpm -C glade run dev`
 
 4. The last command should print a URL like http://localhost:5173/glade/, click that to see the working project in action
