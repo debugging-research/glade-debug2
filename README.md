@@ -46,6 +46,8 @@ This bug does not necessarily occur here because we pilot it locally, but:
 
 Intended behavior: when you open the app, it should restore your last session’s nodes (shapes/images/text) from local storage (GLADE). If you added nodes, then reload the page, you should see them again.
 
-With the bug: the app treats GLADE as a single node type instead of an array. That mismatch can cause either:
+With the bug: the app treats GLADE as a single node type. That mismatch can cause either:
 - A crash/overlay during startup when the code tries to iterate/spread the nodes, or
 - The board loads empty or behaves inconsistently because it can’t reliably read/write the saved nodes collection.
+
+The intention of this one is to fix the logic of the code, but I can always change it to be an intended behavior bug.
