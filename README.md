@@ -42,7 +42,8 @@ A virtual whiteboard
 ---
 ## Intended Behavior Error
 ---
-This bug does not necessarily show up visually on the site when running the commands above because we pilot it locally, and it would be a huge error running for the globally deployed site, here is what would happen if we did that:
+If you open the link, the bug would make it so you could not interact with anything.
+I noticed this bug does not necessarily always show up visually on the site when running the commands above because we pilot it locally, and it would be a huge error running for the globally deployed site, here is what would happen if we did that:
 
 Intended behavior: when you open the app, it should restore your last session’s nodes (shapes/images/text) from local storage (GLADE). If you added nodes, then reload the page, you should see them again.
 
